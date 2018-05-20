@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "happy-utils": "^1.2.4",
     "iview": "^2.14.0-rc.2",
     "nuxt": "^1.0.0"
   },

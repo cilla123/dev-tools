@@ -3,18 +3,14 @@
     <div class="app-root"></div>
     <sidebar></sidebar>
     <div class="app-container">
-      <div class="page-dashboard clearfix">
-        <div class="main">
-          <nuxt />
-        </div>
-      </div>
+      <nuxt />
     </div>
   </div>
 </template>
 
 <script>
 
-  import Sidebar from '../components/sidebar/sidebar'
+  import Sidebar from '../components/sidebar/sidebar.vue'
 
   export default {
     components: {
@@ -43,8 +39,8 @@
     padding: 30px;
   }
   .page-dashboard .main {
-    padding-right: -webkit-calc(240px + 5%);
-    padding-right: -moz-calc(240px + 5%);
-    padding-right: calc(240px + 5%);
+    // padding-right: -webkit-calc(240px + 5%);
+    // padding-right: -moz-calc(240px + 5%);
+    // padding-right: calc(240px + 5%);
   }
 </style>

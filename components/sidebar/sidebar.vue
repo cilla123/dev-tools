@@ -10,15 +10,16 @@
             <div class="app-shop-overview__label">未认证</div>
           </div>
           <div style="display: inline;">
-            <div class="app-shop-overview__label">有赞餐饮</div>
+            <div class="app-shop-overview__label">工具网站</div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- 侧边栏 -->
     <ul class="app-sidebar__container">
-      <li>
-        <a href="#/" class="active"><div class="app-sidebar__icon app-sidebar__icon--dashboard"></div>工作台</a>
+      <li v-for="(item, index) in sideBarArray" :key="index">
+        <a href="/manage" ><div class="app-sidebar__icon app-sidebar__icon--dashboard"></div>{{ item.name }}</a>
       </li>
     </ul>
 
@@ -32,9 +33,25 @@
 
 
 <script>
-export default {
-  
-}
+
+  import sidebar from './sidebar.js'
+
+  export default {
+    data(){
+      return {
+        sideBarArray: []
+      }
+    },
+    created(){
+      this.renderSideBar()
+    },
+    methods: {
+      // 渲染侧边栏
+      renderSideBar(){
+        this.sideBarArray = sidebar
+      }
+    }
+  }
 </script>
 
 <style lang="scss" scoped>
