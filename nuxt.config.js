@@ -17,6 +17,22 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+  /**
+   * 全局样式
+   */
+  css: [{
+    src: 'assets/sass/style.scss',
+    lang: 'sass?indentedSyntax=true'
+  }, {
+    src: 'iview/dist/styles/iview.css'
+  }],
+  /**
+   * 插件
+   */
+  plugins: [{
+    src: '~plugins/iview.js',
+    ssr: true
+  }],
   /*
   ** Build configuration
   */
