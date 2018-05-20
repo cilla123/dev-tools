@@ -19,7 +19,7 @@
     <!-- 侧边栏 -->
     <ul class="app-sidebar__container">
       <li v-for="(item, index) in sideBarArray" :key="index">
-        <a href="/manage" ><div class="app-sidebar__icon app-sidebar__icon--dashboard"></div>{{ item.name }}</a>
+        <a href="/manage" ><div class="app-sidebar__icon" :class="'app-sidebar__icon--' + item.icon"></div>{{ item.name }}</a>
       </li>
     </ul>
 
@@ -152,6 +152,30 @@
   }
   .app-sidebar__icon--dashboard {
     background-position: 0 0;
+  }
+  .app-sidebar__icon--goods {
+    background-position: 0 -24px;
+  }
+  .app-sidebar__icon--order {
+    background-position: 0 -48px;
+  }
+  .app-sidebar__icon--statcenter {
+    background-position: 0 -73px;
+  }
+  .app-sidebar__icon--scrm {
+    background-position: 0 -97px;
+  }
+  .app-sidebar__icon--shop {
+    background-position: 0 -120px;
+  }
+  .app-sidebar__icon--asset {
+    background-position: 0 -144px;
+  }
+  .app-sidebar__icon--plugin {
+    background-position: 0 -168px;
+  }
+  .app-sidebar__icon--profile {
+    background-position: 0 -192px;
   }
 
   // 用户信息
