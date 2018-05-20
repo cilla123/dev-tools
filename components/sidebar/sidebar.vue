@@ -1,10 +1,32 @@
 <template>
   <aside class="app-sidebar">
+    <!-- 顶部信息 -->
+    <div class="app-shop-overview">
+      <div class="app-shop-overview__logo" style="background-image: url(https://img.yzcdn.cn/upload_files/2017/12/29/Fh3CdqKVK6P-EzXaBuONGvgrUY3W.png?imageView2/2/w/80/h/80/q/90/format/webp);"></div>
+      <div class="app-shop-overview__container">
+        <div class="app-shop-overview__shopname">Ben</div>
+        <div>
+          <div style="display: inline;">
+            <div class="app-shop-overview__label">未认证</div>
+          </div>
+          <div style="display: inline;">
+            <div class="app-shop-overview__label">有赞餐饮</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 侧边栏 -->
     <ul class="app-sidebar__container">
       <li>
         <a href="#/" class="active"><div class="app-sidebar__icon app-sidebar__icon--dashboard"></div>工作台</a>
       </li>
     </ul>
+
+    <!-- 用户信息 -->
+    <div class="app-userinfo">
+      <div class="app-userinfo__avatar"></div>
+      <div class="app-userinfo__phone">15217681427</div>
+    </div>
   </aside>
 </template>
 
@@ -16,6 +38,49 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  // 信息
+  .app-shop-overview {
+    margin: 25px 15px 0;
+  }
+  .app-shop-overview__logo {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: 50%;
+  }
+  .app-shop-overview__container {
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eee;
+  }
+  .app-shop-overview__shopname {
+    font-size: 14px;
+    line-height: 14px;
+    height: 14px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 9px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .app-shop-overview__label {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    border-radius: 1px;
+    padding: 2px;
+    background: #ccc;
+    margin-right: 5px;
+  }
+
+  // 侧边栏
   .app-sidebar{
     position: fixed;
     top: 0;
@@ -70,6 +135,39 @@ export default {
   }
   .app-sidebar__icon--dashboard {
     background-position: 0 0;
+  }
+
+  // 用户信息
+  .app-userinfo {
+    position: fixed;
+    padding: 16px 0;
+    border-top: 1px solid #eee;
+    margin: 0 15px;
+    bottom: 0;
+    width: 170px;
+    background: #fff;
+    cursor: pointer;
+  }
+  .app-userinfo__avatar {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    width: 18px;
+    height: 18px;
+    background: url(https://img.yzcdn.cn/public_files/2017/04/01/64a5b3fd10d3d11d726a09d07a5d9aca.png) no-repeat;
+    background-position: 0 -175px;
+  }
+  @media not all, only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, not all{
+    .app-userinfo__avatar {
+      background-image: url(https://img.yzcdn.cn/public_files/2017/04/01/c7e68db7abb4b3f9f06feda233f0b5d0.png);
+      background-size: 18px 193px;
+    }
+  }
+  .app-userinfo__phone {
+    color: #555;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 50px;
   }
 </style>
 
