@@ -8,7 +8,7 @@
             <a class="wm-plugin__setting-item vertical-middle" href="/manage/timestamp"><div class="icon icon-shi">时</div><span>时间工具</span></a>
           </i-col>
           <i-col span="6">
-            <a class="wm-plugin__setting-item vertical-middle" href="javascript:;"><div class="icon icon-shi">时</div><span>时间戳转换</span></a>
+            <a class="wm-plugin__setting-item vertical-middle" href="/manage/translate"><div class="icon icon-fanyi">译</div><span>在线翻译</span></a>
           </i-col>
           <i-col span="6">
             <a class="wm-plugin__setting-item vertical-middle" href="javascript:;"><div class="icon icon-shi">时</div><span>时间戳转换</span></a>
@@ -68,6 +68,9 @@
     vertical-align: middle;
     &.icon-shi {
       background: #0c9;
+    }
+    &.icon-fanyi {
+      background: #fc0;
     }
   }
   .page-dashboard .main .wm-plugin__setting-item:hover {

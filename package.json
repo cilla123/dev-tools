@@ -13,8 +13,11 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "happy-utils": "^1.2.4",
     "iview": "^2.14.0-rc.2",
+    "jsonp": "^0.2.1",
+    "md5": "^2.2.1",
     "nuxt": "^1.0.0"
   },
   "devDependencies": {

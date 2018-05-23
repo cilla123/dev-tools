@@ -1,0 +1,117 @@
+[{
+  "key": "auto",
+  "name": "自动检测",
+  "value": "auto"
+}, {
+  "key": "zh",
+  "name": "中文",
+  "value": "zh"
+}, {
+  "key": "en",
+  "name": "英语",
+  "value": "en"
+}, {
+  "key": "yue",
+  "name": "粤语",
+  "value": "yue"
+}, {
+  "key": "wyw",
+  "name": "文言文",
+  "value": "wyw"
+}, {
+  "key": "jp",
+  "name": "日语",
+  "value": "jp"
+}, {
+  "key": "kor",
+  "name": "韩语",
+  "value": "kor"
+}, {
+  "key": "fra",
+  "name": "法语",
+  "value": "fra"
+}, {
+  "key": "spa",
+  "name": "西班牙语",
+  "value": "spa"
+}, {
+  "key": "th",
+  "name": "泰语",
+  "value": "th"
+}, {
+  "key": "ara",
+  "name": "阿拉伯语",
+  "value": "ara"
+}, {
+  "key": "ru",
+  "name": "俄语",
+  "value": "ru"
+}, {
+  "key": "pt",
+  "name": "葡萄牙语",
+  "value": "pt"
+}, {
+  "key": "de",
+  "name": "德语",
+  "value": "de"
+}, {
+  "key": "it",
+  "name": "意大利语",
+  "value": "it"
+}, {
+  "key": "el",
+  "name": "希腊语",
+  "value": "el"
+}, {
+  "key": "nl",
+  "name": "荷兰语",
+  "value": "nl"
+}, {
+  "key": "pl",
+  "name": "波兰语",
+  "value": "pl"
+}, {
+  "key": "bul",
+  "name": "保加利亚语",
+  "value": "bul"
+}, {
+  "key": "est",
+  "name": "爱沙尼亚语",
+  "value": "est"
+}, {
+  "key": "dan",
+  "name": "丹麦语",
+  "value": "dan"
+}, {
+  "key": "fin",
+  "name": "芬兰语",
+  "value": "fin"
+}, {
+  "key": "cs",
+  "name": "捷克语",
+  "value": "cs"
+}, {
+  "key": "rom",
+  "name": "罗马尼亚语",
+  "value": "rom"
+}, {
+  "key": "slo",
+  "name": "斯洛文尼亚语",
+  "value": "slo"
+}, {
+  "key": "swe",
+  "name": "瑞典语",
+  "value": "swe"
+}, {
+  "key": "hu",
+  "name": "匈牙利语",
+  "value": "hu"
+}, {
+  "key": "cht",
+  "name": "繁体中文",
+  "value": "cht"
+}, {
+  "key": "vie",
+  "name": "越南语",
+  "value": "vie"
+}]
