@@ -11,12 +11,26 @@
             <a class="wm-plugin__setting-item vertical-middle" href="/manage/translate"><div class="icon icon-fanyi">译</div><span>在线翻译</span></a>
           </i-col>
           <i-col span="6">
-            <a class="wm-plugin__setting-item vertical-middle" href="javascript:;"><div class="icon icon-shi">时</div><span>时间戳转换</span></a>
+            <a class="wm-plugin__setting-item vertical-middle" href="/manage/idcard"><div class="icon icon-shen">身</div><span>身份证校验</span></a>
           </i-col>
           <i-col span="6">
             <a class="wm-plugin__setting-item vertical-middle" href="javascript:;"><div class="icon icon-shi">时</div><span>时间戳转换</span></a>
           </i-col>
         </row>
+        <!-- <row class="mt-10">
+          <i-col span="6">
+            <a class="wm-plugin__setting-item vertical-middle" href="/manage/timestamp"><div class="icon icon-shi">时</div><span>时间工具</span></a>
+          </i-col>
+          <i-col span="6">
+            <a class="wm-plugin__setting-item vertical-middle" href="/manage/translate"><div class="icon icon-fanyi">译</div><span>在线翻译</span></a>
+          </i-col>
+          <i-col span="6">
+            <a class="wm-plugin__setting-item vertical-middle" href="javascript:;"><div class="icon icon-shi">时</div><span>时间戳转换</span></a>
+          </i-col>
+          <i-col span="6">
+            <a class="wm-plugin__setting-item vertical-middle" href="javascript:;"><div class="icon icon-shi">时</div><span>时间戳转换</span></a>
+          </i-col>
+        </row> -->
       </div>
     </div>
   </div>
@@ -72,9 +86,15 @@
     &.icon-fanyi {
       background: #fc0;
     }
+    &.icon-shen {
+      background: #f44;
+    }
   }
   .page-dashboard .main .wm-plugin__setting-item:hover {
     background-color: #f2f2f2;
+  }
+  .mt-10{
+    margin-top: 3px; 
   }
 </style>
 
