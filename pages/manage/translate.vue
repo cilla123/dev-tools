@@ -28,6 +28,9 @@
   const languageJson = require('../../static/js/utils/translate/language.json')
 
   export default {
+    head: {
+      title: "工作台 - BenProduction"
+    },
     components: {
       Topbar
     },
